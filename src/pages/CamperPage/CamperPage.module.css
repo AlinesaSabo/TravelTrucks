@@ -1,0 +1,13 @@
+.camper_page {
+  display: flex;
+  gap: 64px;
+  width: 100%;
+  padding: 48px 64px 52px 64px;
+}
+
+.error_message {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  color: var(--color-button);
+}

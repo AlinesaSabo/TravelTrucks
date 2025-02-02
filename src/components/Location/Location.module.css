@@ -1,0 +1,54 @@
+.location_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.location_label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-gray);
+}
+
+.input_container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 20px;
+  height: 56px;
+  border-radius: 12px;
+  background-color: var(--color-badges);
+  transition: var(--transition);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--color-gray);
+}
+
+.icon_active {
+  fill: var(--color-main);
+}
+
+.location_input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-main);
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.location_input::placeholder {
+  color: var(--color-gray);
+}
+
+.input_container:hover,
+.input_container:focus-within {
+  background-color: var(--color-inputs);
+}

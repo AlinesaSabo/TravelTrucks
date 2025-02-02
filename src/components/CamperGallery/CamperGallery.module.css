@@ -1,0 +1,25 @@
+.previewImage {
+  width: 292px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gallery {
+  display: flex;
+  width: 100%;
+  gap: 48px;
+}
+
+.image {
+  width: 292px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.image:hover {
+  transform: scale(1.05);
+}

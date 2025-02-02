@@ -1,0 +1,28 @@
+.search_bar {
+  flex: 0 0 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 200px;
+  border: none;
+  width: 166px;
+  height: 56px;
+  background-color: var(--color-button);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: var(--color-white);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.button:hover {
+  background-color: var(--color-button-hover);
+}
